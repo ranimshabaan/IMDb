@@ -1,4 +1,4 @@
 package com.example.imdb;
 
-public class SerchList_1 {
+public class SearchList_1 {
 }
