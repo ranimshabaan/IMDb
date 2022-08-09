@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/IMDb/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/IMDb/app/src/main/res/layout/activity_serch_main1.xml" value="0.264" />
+        <entry key="..\:/IMDb/app/src/main/res/menu/search.xml" value="0.6" />
         <entry key="..\:/programing/android java/IMDb/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/programing/android java/IMDb/app/src/main/res/layout/activity_main_page.xml" value="0.1" />
         <entry key="..\:/programing/android java/IMDb/app/src/main/res/layout/complex_row.xml" value="0.128" />
