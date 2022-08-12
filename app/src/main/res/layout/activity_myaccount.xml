@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C0C0C"
+    android:textAlignment="center"
+    tools:context=".myaccount">
+
+    <ImageView
+        android:id="@+id/ig_account2"
+        android:layout_width="203dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="78dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/account2"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/tv_username2"
+        android:layout_width="161dp"
+        android:layout_height="43dp"
+        android:background="#0C0C0C"
+        android:text="username"
+        android:textColor="#9C4BAA"
+        android:textColorHighlight="#0C0C0C"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:autoSizeMaxTextSize="100sp"
+        app:autoSizeTextType="none"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <EditText
+        android:id="@+id/etd_username2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Entre your username"
+        android:textColor="#9C4BAA"
+        android:textColorHighlight="#0C0C0C"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <TextView
+        android:id="@+id/tv_password"
+        android:layout_width="181dp"
+        android:layout_height="58dp"
+        android:background="#0C0C0C"
+        android:text="password"
+        android:textColor="#9C4BAA"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="227dp"
+        android:layout_height="33dp"
+        android:background="#0C0C0C"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Entre your password"
+        android:textColor="#9C4BAA"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0C0C0C"
+        android:text="SAVE"
+        android:textColor="#9C4BAA"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#0C0C0C"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0C0C0C"
+        android:text="Logout"
+        android:textColor="#9C4BAA"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#0C0C0C"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+    <ImageButton
+        android:id="@+id/ig_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0C0C0C"
+        app:srcCompat="@drawable/arrow2"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
